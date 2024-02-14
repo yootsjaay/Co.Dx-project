@@ -1,0 +1,42 @@
+ <?php
+$products["logDescription"] = "El registro en products fue guardado con los siguientes datos:";
+$products["logUpdate"] = "El registro en products fue actualizado con los siguientes datos:";
+$products["logDeleted"] = "El registro en products fue eliminado con los siguientes datos:";
+$products["msg_delete"] = "El Registro en products fue eliminado correctamente:";
+$products["add"] = "Agregar Products";
+$products["edit"] = "Editar products";
+$products["createEdit"] = "Crear / Editar";
+$products["title"] = "Admon. products";
+$products["subtitle"] = "Lista products";
+$products["fields"]["idEmpresa"] = "IdEmpresa";
+$products["fields"]["idCategory"] = "IdCategory";
+$products["fields"]["code"] = "Code";
+$products["fields"]["barcode"] = "Barcode";
+$products["fields"]["unidad"] = "Unidad";
+$products["fields"]["description"] = "Description";
+$products["fields"]["stock"] = "Stock";
+$products["fields"]["validateStock"] = "ValidateStock";
+$products["fields"]["inventarioRiguroso"] = "InventarioRiguroso";
+$products["fields"]["buyPrice"] = "BuyPrice";
+$products["fields"]["salePrice"] = "SalePrice";
+$products["fields"]["porcentSale"] = "PorcentSale";
+$products["fields"]["porcentTax"] = "PorcentTax";
+$products["fields"]["unidadSAT"] = "UnidadSAT";
+$products["fields"]["claveProductoSAT"] = "ClaveProductoSAT";
+$products["fields"]["nombreUnidadSAT"] = "NombreUnidadSAT";
+$products["fields"]["nombreClaveProducto"] = "NombreClaveProducto";
+$products["fields"]["porcentIVARetenido"] = "PorcentIVARetenido";
+$products["fields"]["porcentISRRetenido"] = "PorcentISRRetenido";
+$products["fields"]["routeImage"] = "RouteImage";
+$products["fields"]["created_at"] = "Created_at";
+$products["fields"]["updated_at"] = "Updated_at";
+$products["fields"]["deleted_at"] = "Deleted_at";
+
+ $products["fields"]["actions"] = "Acciones";       
+$products["msg"]["msg_insert"] = "Registro agregado correctamente.";
+$products["msg"]["msg_update"] = "Registro modificado correctamente.";
+$products["msg"]["msg_delete"] = "Registro eliminado correctamente.";
+$products["msg"]["msg_get"] = "Registro obtenido correctamente.";
+$products["msg"]["msg_get_fail"] = "Registro no encontrado o eliminado.";
+return $products;
+        
